@@ -1,4 +1,10 @@
 
-In this folder the code used for the impementation of the different examined methods can be found. 
--Kalman.m: 
--recusive
+
+In this folder the code used for the impementation of the MVDR beamformer with the different examined methods for RTF estimation can be found. 
+-Kalman.m: MVDR beamformer with the full derived Kalman filter for RTf estimation
+-RTF_recursive.m: MVDR beamformer with the Kalman filter with a zero measurement equation for RTF estimation. 
+-GEVD.m: MVDR beamformer with the known GEVD-based RTF estimation where a GEVD is computed for each frame
+
+Furthermore the used sound samples can be found as well
+- line_moving_speech27.wav: The speech signal wich consist of 5 microphone signals and where the speech source is moving at a speed of 2.7km/h
+- diffuse_noise: The used added noise
