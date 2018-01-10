@@ -1,1 +1,30 @@
 
+In this folder some extra data can be found which is not discussed in the thesis.
+
+First data can be found in 3d plots where the objective measurements are in fuction of the time constant toghetheras well as the level of process noise. This is done for an input SNR of 5 dB and an input SNR of -5 dB
+
+The data with an inputs SNR of 5 dB are:
+- kalman1.fig : output SNR
+- kalman2.fig : STOI
+- kalman3.fig : LLR
+- kalman4.fig : freq-weighted segmental SNR
+
+The data with an inputs SNR of -5 dB are:
+- minkalman1.fig : output SNR
+- minkalman2.fig : STOI
+- minkalman3.fig : LLR
+- minkalman4.fig : freq-weighted segmental SNR
+
+Furthermore, sound files of the processed signal with the different methods can be found as well as corresponding spectrograms. The time constant is for all methods equal to 1 s and the test are done with an input SNR of 5 dB and -5 dB
+
+spectro_clearsignal. fig: Spectrogram of clean speech component of the microphone signal received by the reference microphone
+
+Data with an input SNR 5 dB
+spectro_mic.fig :
+
+
+
+
+
+Data with an input SNR of -5 dB
+
