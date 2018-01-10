@@ -15,16 +15,22 @@ The data with an inputs SNR of -5 dB are:
 - minkalman3.fig : LLR
 - minkalman4.fig : freq-weighted segmental SNR
 
-Furthermore, sound files of the processed signal with the different methods can be found as well as corresponding spectrograms. The time constant is for all methods equal to 1 s and the test are done with an input SNR of 5 dB and -5 dB
+Furthermore, sound files of the processed signal with the different methods can be found as well as corresponding spectrograms.
+The time constant is for all methods equal to 1 s and the test are done with an input SNR of 5 dB 
 
-spectro_clearsignal. fig: Spectrogram of clean speech component of the microphone signal received by the reference microphone
+spectro_clearsignal.fig: Spectrogram of clean speech component of the microphone signal received by the reference microphone
+spectro_mic.fig : Spectogram of microphone signal received by the reference microphone
 
-Data with an input SNR 5 dB
-spectro_mic.fig :
+spectro_KF20_5dB.fig : Spectrogram of enhanced signal with KF20
+KF20.wav: enhanced signal with KF20
 
+spectro_KFinf_5dB.fig : Spectrogram of enhanced signal with KF inf
+KFinf.wav : enhanced signal with KF inf
 
+spectro_KFzm_5dB.fig :Spectrogram of enhanced signal with KF zm
+KFzm.wav: enhanced signal with KF zm
 
+spectro_algo1_5dB.fig :Spectrogram of enhanced signal with algorithm 1
+GEVD.wav: enhanced signal with algorithm 1
 
-
-Data with an input SNR of -5 dB
 
